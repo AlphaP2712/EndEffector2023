@@ -10,7 +10,10 @@
 
     
 ## Device infomation
-![image](https://github.com/AlphaP2712/EndEffector2023/assets/74948675/e0c55d8c-805f-453d-8da3-c4cd22b5782e)
+
+![image](https://github.com/AlphaP2712/EndEffector2023/assets/74948675/2fe9dd6f-3201-4b53-ba1f-152b3bb64051)
+
+
 ในส่วนของend end effecttor จะแสดงสถานะการทำงานโดยใช้สัญญาณไฟLED โดยมีการแสดงผลดังต่อไปนี้
 
 ### ไฟแสดงสถานะ POW
