@@ -182,4 +182,13 @@ _______________________________________
  Bit 1 - 0 : Gripper status (0b00 = Not pick , 0b01 = picking, 0b10 = placeing ,0b11 = picked )
  
 ## การ update software ให้กับend effector 
- WIP
+ การupdate firmware ให้กับ endeffector ใดๆ จะต้องใช้กับ endeffector ที่ใช้ MCU ATMega328P เท่านั้นโดยทำการเชื่อมต่อ MCU ผ่าน port usb 
+ 
+ โดยการใช้งานผ่าน Xloader ตามขั้นตอนดังนี้
+ 1. แตกไฟล์ xloader.zip ให้เรียบร้อบและ เปิดโปรแกรม xloader.exe
+ 2. ![image](https://github.com/AlphaP2712/EndEffector2023/assets/74948675/dfd67d49-fc47-42b0-88dd-92b0661fa140)
+ เลือก ไฟล์ fireware.hex ที่ถูกต้อง
+ 3. เลือก device เป็น Duemilanove/Nano(ATmega328)
+ 4.เลือก com port ให้ถูกต้อง
+ 5. กำหนด baudrate เป็น 57600
+ 6. upload
